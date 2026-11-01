@@ -1,0 +1,1203 @@
+{
+  "judul": "UTS Algoritma dan Pemrograman",
+  "soal": [
+    {
+      "id": 1,
+      "materi": "Materi 1: Algoritma, Pseudocode, Flowchart, Dasar Python",
+      "pertanyaan": "Apa definisi utama dari algoritma dalam konteks ilmu komputer?",
+      "opsi": [
+        "Bahasa pemrograman tingkat tinggi yang harus dijalankan interpreter",
+        "Urutan langkah-langkah logis, sistematis, dan berhingga untuk menyelesaikan masalah",
+        "Perintah khusus yang hanya dipahami oleh sistem operasi Windows",
+        "Kumpulan data acak yang disimpan di dalam memori komputer",
+        "Hasil akhir dari eksekusi sebuah program perangkat lunak"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 2,
+      "materi": "Materi 1: Algoritma, Pseudocode, Flowchart, Dasar Python",
+      "pertanyaan": "Karakteristik algoritma yang menyatakan bahwa setiap langkah harus jelas, tidak ambigu, dan memiliki arti tegas adalah...",
+      "opsi": [
+        "Input",
+        "Output",
+        "Definiteness",
+        "Finiteness",
+        "Effectiveness"
+      ],
+      "jawaban": "c"
+    },
+    {
+      "id": 3,
+      "materi": "Materi 1: Algoritma, Pseudocode, Flowchart, Dasar Python",
+      "pertanyaan": "Dalam alur pemecahan masalah komputasional, tahapan setelah analisis masalah dan sebelum pembuatan kode program Python adalah...",
+      "opsi": [
+        "Testing dan Evaluasi",
+        "Algoritma -> Pseudocode/Flowchart",
+        "Kompilasi biner",
+        "Debugging memori RAM",
+        "Maintenance aplikasi"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 4,
+      "materi": "Materi 1: Algoritma, Pseudocode, Flowchart, Dasar Python",
+      "pertanyaan": "Simbol flowchart berupa belah ketupat (diamond) digunakan untuk menyatakan...",
+      "opsi": [
+        "Proses perhitungan aritmetika",
+        "Awal atau akhir dari sebuah program (Terminator)",
+        "Input atau output data",
+        "Keputusan (Decision) berdasarkan kondisi tertentu",
+        "Penghubung antar halaman"
+      ],
+      "jawaban": "d"
+    },
+    {
+      "id": 5,
+      "materi": "Materi 1: Algoritma, Pseudocode, Flowchart, Dasar Python",
+      "pertanyaan": "Apa tipe data hasil default yang dikembalikan oleh fungsi `input()` pada bahasa Python versi 3?",
+      "opsi": [
+        "integer",
+        "float",
+        "boolean",
+        "string",
+        "list"
+      ],
+      "jawaban": "d"
+    },
+    {
+      "id": 6,
+      "materi": "Materi 1: Algoritma, Pseudocode, Flowchart, Dasar Python",
+      "pertanyaan": "Operator aritmetika di Python yang digunakan untuk melakukan operasi pembagian bulat (mengabaikan sisa bagi/tanpa koma) adalah...",
+      "opsi": [
+        "/",
+        "%",
+        "//",
+        "**",
+        "/ ="
+      ],
+      "jawaban": "c"
+    },
+    {
+      "id": 7,
+      "materi": "Materi 1: Algoritma, Pseudocode, Flowchart, Dasar Python",
+      "pertanyaan": "Perhatikan potongan kode berikut:",
+      "kode": "x = 10\ny = 3\nz = x * y\nz = z + 2\nprint(z)",
+      "lanjutan": "Berapa nilai keluaran akhir dari variabel z?",
+      "opsi": [
+        "30",
+        "32",
+        "35",
+        "29",
+        "33"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 8,
+      "materi": "Materi 1: Algoritma, Pseudocode, Flowchart, Dasar Python",
+      "pertanyaan": "Manakah di bawah ini yang merupakan aturan penulisan nama variabel yang **salah** atau tidak valid di Python?",
+      "opsi": [
+        "`nama_mahasiswa`",
+        "`nilaiUts1`",
+        "`1_variabel`",
+        "`_total_harga`",
+        "`totalHarga`"
+      ],
+      "jawaban": "c"
+    },
+    {
+      "id": 9,
+      "materi": "Materi 1: Algoritma, Pseudocode, Flowchart, Dasar Python",
+      "pertanyaan": "Apa fungsi utama dari simbol jajar genjang dalam pembuatan flowchart standar?",
+      "opsi": [
+        "Menunjukkan proses pengolahan data atau perhitungan rumus",
+        "Menyatakan awal dan akhir program",
+        "Menerima data masukan (input) atau menampilkan keluaran (output)",
+        "Menyeleksi data berdasarkan kondisi logika",
+        "Mengalirkan arah eksekusi program"
+      ],
+      "jawaban": "c"
+    },
+    {
+      "id": 10,
+      "materi": "Materi 1: Algoritma, Pseudocode, Flowchart, Dasar Python",
+      "pertanyaan": "Mengapa perancangan algoritma (seperti pseudocode atau flowchart) sangat dianjurkan sebelum langsung mengetik kode program?",
+      "opsi": [
+        "Karena komputer tidak bisa membaca kode Python tanpa flowchart",
+        "Membantu memahami masalah, mengurangi kesalahan logika, dan memudahkan penerjemahan kode",
+        "Agar program berjalan dua kali lipat lebih cepat di CPU",
+        "Karena aturan sintaks Python mewajibkan adanya file flowchart.png",
+        "Untuk menghindari penggunaan tipe data float"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 11,
+      "materi": "Materi 2 & 4: Struktur Kontrol Seleksi (Percabangan)",
+      "pertanyaan": "Alur program yang mengeksekusi instruksi secara berurutan dari atas ke bawah tanpa adanya loncatan atau pilihan disebut...",
+      "opsi": [
+        "Alur seleksi",
+        "Alur sekuensial",
+        "Alur iterasi",
+        "Alur rekursif",
+        "Alur modular"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 12,
+      "materi": "Materi 2 & 4: Struktur Kontrol Seleksi (Percabangan)",
+      "pertanyaan": "Operator perbandingan yang digunakan untuk memeriksa apakah dua nilai bernilai **sama dengan** di dalam ekspresi kondisi Python adalah...",
+      "opsi": [
+        "=",
+        "==",
+        "===",
+        "!=",
+        "=>"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 13,
+      "materi": "Materi 2 & 4: Struktur Kontrol Seleksi (Percabangan)",
+      "pertanyaan": "Perhatikan potongan kode berikut:",
+      "kode": "nilai = 75\nif nilai >= 85:\n    print(\"A\")\nelif nilai >= 70:\n    print(\"B\")\nelse:\n    print(\"C\")",
+      "lanjutan": "Apa output yang akan dicetak ke layar?",
+      "opsi": [
+        "A",
+        "B",
+        "C",
+        "A dan B",
+        "Error"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 14,
+      "materi": "Materi 2 & 4: Struktur Kontrol Seleksi (Percabangan)",
+      "pertanyaan": "Apa fungsi dari operator logika `and` dalam suatu kondisi percabangan Python?",
+      "opsi": [
+        "Menghasilkan True jika minimal salah satu kondisi bernilai benar",
+        "Menghasilkan True jika semua kondisi yang dihubungkan bernilai benar",
+        "Membalikkan nilai kebenaran Boolean (True menjadi False)",
+        "Menggabungkan dua string teks secara berurutan",
+        "Melakukan operasi bitwise pada bilangan biner"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 15,
+      "materi": "Materi 2 & 4: Struktur Kontrol Seleksi (Percabangan)",
+      "pertanyaan": "Apa jenis kesalahan yang akan terjadi jika Anda lupa memberikan tanda titik dua (`:`) di akhir baris pernyataan `if` pada Python?",
+      "opsi": [
+        "IndentationError",
+        "TypeError",
+        "SyntaxError",
+        "ValueError",
+        "IndexError"
+      ],
+      "jawaban": "c"
+    },
+    {
+      "id": 16,
+      "materi": "Materi 2 & 4: Struktur Kontrol Seleksi (Percabangan)",
+      "pertanyaan": "Yang dimaksud dengan *nested if* dalam pemrograman adalah...",
+      "opsi": [
+        "Perulangan di dalam perulangan",
+        "Percabangan (`if` / `else`) yang berada di dalam blok percabangan lainnya",
+        "Fungsi yang memanggil dirinya sendiri secara berulang",
+        "Variabel global yang didefinisikan di dalam fungsi lokal",
+        "Penggabungan dua list menjadi satu list baru"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 17,
+      "materi": "Materi 2 & 4: Struktur Kontrol Seleksi (Percabangan)",
+      "pertanyaan": "Perhatikan kode berikut:",
+      "kode": "a = 10\nb = 5\nif a > 5 and b < 10:\n    print(\"Valid\")\nelse:\n    print(\"Invalid\")",
+      "lanjutan": "Apa output dari program tersebut?",
+      "opsi": [
+        "Valid",
+        "Invalid",
+        "True",
+        "False",
+        "Error"
+      ],
+      "jawaban": "a"
+    },
+    {
+      "id": 18,
+      "materi": "Materi 2 & 4: Struktur Kontrol Seleksi (Percabangan)",
+      "pertanyaan": "Apa kegunaan utama dari pernyataan `elif` dalam struktur kendali seleksi Python?",
+      "opsi": [
+        "Menghentikan program secara paksa jika terjadi error",
+        "Menguji beberapa kondisi alternatif secara berurutan setelah kondisi `if` bernilai salah",
+        "Menjalankan blok kode default jika seluruh kondisi di atasnya benar",
+        "Mengulang blok kode sebanyak jumlah elemen dalam list",
+        "Mengubah tipe data string menjadi integer"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 19,
+      "materi": "Materi 2 & 4: Struktur Kontrol Seleksi (Percabangan)",
+      "pertanyaan": "Jika sebuah kondisi percabangan dituliskan `if not(x > 5):`, apa arti dari penggunaan operator `not` tersebut?",
+      "opsi": [
+        "Memastikan bahwa nilai x harus selalu lebih besar dari 5",
+        "Membalikkan hasil evaluasi Boolean dari ekspresi `x > 5`",
+        "Mengalikan nilai x dengan angka 5",
+        "Mengabaikan baris kode di bawahnya jika x bernilai 5",
+        "Mengubah nilai x menjadi tipe data boolean"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 20,
+      "materi": "Materi 2 & 4: Struktur Kontrol Seleksi (Percabangan)",
+      "pertanyaan": "Manakah pernyataan yang paling tepat mengenai fungsi indentasi (penjorokan spasi) pada struktur percabangan di Python?",
+      "opsi": [
+        "Indentasi bersifat opsional dan hanya untuk mempercantik tampilan kode",
+        "Indentasi digunakan oleh Python untuk menentukan blok atau kelompok kode di dalam `if`/`else`",
+        "Indentasi wajib menggunakan persis 8 spasi di setiap baris",
+        "Indentasi hanya digunakan di dalam fungsi matematika saja",
+        "Python akan mengabaikan kesalahan indentasi tanpa menampilkan pesan error"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 21,
+      "materi": "Materi 3: String, Bilangan, & Operator",
+      "pertanyaan": "Sifat dari tipe data *string* di dalam bahasa pemrograman Python adalah...",
+      "opsi": [
+        "Mutable (dapat diubah isinya per karakter)",
+        "Immutable (tidak dapat diubah isinya secara langsung setelah didefinisikan)",
+        "Selalu berupa bilangan pecahan dengan presisi 15 digit",
+        "Hanya dapat diisi dengan angka bulat positif",
+        "Otomatis dikonversi menjadi tipe data boolean"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 22,
+      "materi": "Materi 3: String, Bilangan, & Operator",
+      "pertanyaan": "Perhatikan variabel berikut:",
+      "kode": "var = \"Hello Python\"",
+      "lanjutan": "Bagaimana cara mengakses huruf 'P' kedua menggunakan indeks positif pada string tersebut?",
+      "opsi": [
+        "var[6]",
+        "var[7]",
+        "var[8]",
+        "var[5]",
+        "var[0]"
+      ],
+      "jawaban": "a"
+    },
+    {
+      "id": 23,
+      "materi": "Materi 3: String, Bilangan, & Operator",
+      "pertanyaan": "Apa hasil dari eksekusi perintah pemotongan (*slicing*) string berikut?",
+      "kode": "s = \"Informatika\"\nprint(s[0:4])",
+      "opsi": [
+        "form",
+        "Info",
+        "Inf",
+        "matika",
+        "Infor"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 24,
+      "materi": "Materi 3: String, Bilangan, & Operator",
+      "pertanyaan": "Karakter escape apa yang digunakan di dalam string Python jika kita ingin membuat baris baru (*newline*)?",
+      "opsi": [
+        "\\t",
+        "\\b",
+        "\\n",
+        "\\\\",
+        "\\r"
+      ],
+      "jawaban": "c"
+    },
+    {
+      "id": 25,
+      "materi": "Materi 3: String, Bilangan, & Operator",
+      "pertanyaan": "Apa fungsi dari penambahan huruf `r` atau `R` di depan string (contoh: `r\"C:\\new_folder\"`) di Python?",
+      "opsi": [
+        "Mengubah string menjadi huruf kapital seluruhnya (*uppercase*)",
+        "Menjadikannya *raw string* untuk mengabaikan fungsi karakter escape (seperti `\\n`)",
+        "Mengonversi string menjadi tipe data angka riil (float)",
+        "Mengenkripsi string menggunakan algoritma hashing",
+        "Menandai bahwa string tersebut adalah komentar program"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 26,
+      "materi": "Materi 3: String, Bilangan, & Operator",
+      "pertanyaan": "Mengapa operasi aritmetika desimal sederhana seperti `print(1.1 + 2.2)` di Python terkadang menghasilkan angka seperti `3.3000000000000003` alih-alih `3.3` secara persis?",
+      "opsi": [
+        "Karena keterbatasan memori RAM komputer saat eksekusi",
+        "Karena representasi bilangan pecahan biner dalam sistem komputer memiliki presisi terbatas (float IEEE 754)",
+        "Karena modul math belum di-import ke dalam program",
+        "Karena operator penjumlahan `+` mengalami *overflow* memori",
+        "Karena Python secara otomatis membulatkan angka ke bilangan bulat terdekat"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 27,
+      "materi": "Materi 3: String, Bilangan, & Operator",
+      "pertanyaan": "Modul bawaan Python manakah yang sebaiknya digunakan jika kita ingin membuat aplikasi keuangan yang menuntut presisi desimal mutlak tanpa galat pembulatan biner?",
+      "opsi": [
+        "modul `math`",
+        "modul `random`",
+        "modul `decimal`",
+        "modul `sys`",
+        "modul `os`"
+      ],
+      "jawaban": "c"
+    },
+    {
+      "id": 28,
+      "materi": "Materi 3: String, Bilangan, & Operator",
+      "pertanyaan": "Apa output dari ekspresi operator keanggotaan berikut?",
+      "kode": "buah = [\"apel\", \"mangga\", \"jeruk\"]\nprint(\"pisang\" not in buah)",
+      "opsi": [
+        "True",
+        "False",
+        "Error",
+        "None",
+        "0"
+      ],
+      "jawaban": "a"
+    },
+    {
+      "id": 29,
+      "materi": "Materi 3: String, Bilangan, & Operator",
+      "pertanyaan": "Operator identitas `is` di dalam Python digunakan untuk memeriksa...",
+      "opsi": [
+        "Apakah dua variabel memiliki nilai isi yang sama persis",
+        "Apakah dua variabel menunjuk ke objek atau lokasi memori yang sama persis",
+        "Apakah tipe data kedua variabel adalah integer",
+        "Apakah suatu nilai berada di dalam rentang list tertentu",
+        "Apakah suatu string diawali dengan huruf kapital"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 30,
+      "materi": "Materi 3: String, Bilangan, & Operator",
+      "pertanyaan": "Metode bawaan string apa yang digunakan untuk mengubah seluruh huruf dalam suatu kalimat menjadi huruf kecil (*lowercase*)?",
+      "opsi": [
+        "`.upper()`",
+        "`.capitalize()`",
+        "`.lower()`",
+        "`.split()`",
+        "`.replace()`"
+      ],
+      "jawaban": "c"
+    },
+    {
+      "id": 31,
+      "materi": "Materi 5: Perulangan (Looping)",
+      "pertanyaan": "Struktur perulangan di Python yang paling tepat digunakan jika jumlah iterasi atau perulangannya sudah diketahui secara pasti sebelumnya (misalnya menggunakan rentang angka) adalah...",
+      "opsi": [
+        "`while` loop",
+        "`for` loop",
+        "`if-else` statement",
+        "`try-except` block",
+        "`match-case` statement"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 32,
+      "materi": "Materi 5: Perulangan (Looping)",
+      "pertanyaan": "Berapa jumlah elemen atau angka yang dihasilkan oleh fungsi `range(2, 10, 2)` di Python?",
+      "opsi": [
+        "5 elemen (2, 4, 6, 8, 10)",
+        "4 elemen (2, 4, 6, 8)",
+        "5 elemen (2, 3, 4, 5, 6, 7, 8, 9)",
+        "3 elemen (2, 5, 8)",
+        "10 elemen"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 33,
+      "materi": "Materi 5: Perulangan (Looping)",
+      "pertanyaan": "Perhatikan potongan kode berikut:",
+      "kode": "for i in range(3):\n    print(i, end=\" \")",
+      "lanjutan": "Apa keluaran hasil cetak dari kode tersebut?",
+      "opsi": [
+        "1 2 3",
+        "0 1 2",
+        "0 1 2 3",
+        "1 2",
+        "3 2 1"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 34,
+      "materi": "Materi 5: Perulangan (Looping)",
+      "pertanyaan": "Apa kondisi utama agar perulangan menggunakan `while` terus berjalan (tidak berhenti)?",
+      "opsi": [
+        "Kondisi ekspresi pengujian bernilai `False`",
+        "Kondisi ekspresi pengujian bernilai `True`",
+        "Variabel counter dikurangi satu setiap iterasi",
+        "Menggunakan pernyataan `break` di awal blok",
+        "Program mencapai baris terakhir file"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 35,
+      "materi": "Materi 5: Perulangan (Looping)",
+      "pertanyaan": "Apa yang dimaksud dengan *infinite loop* (perulangan tak berhingga) dalam pemrograman?",
+      "opsi": [
+        "Perulangan yang berjalan sangat cepat tanpa jeda waktu",
+        "Perulangan yang kondisi pengujiannya tidak pernah bernilai salah sehingga tidak pernah berhenti sendiri",
+        "Perulangan yang hanya bisa dieksekusi menggunakan komputer server awan",
+        "Perulangan yang otomatis berhenti setelah 1000 iterasi",
+        "Error yang disebabkan oleh kesalahan pengetikan nama variabel"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 36,
+      "materi": "Materi 5: Perulangan (Looping)",
+      "pertanyaan": "Perintah tombol apa yang biasa digunakan untuk menghentikan proses *infinite loop* yang sedang berjalan di terminal/konsol PowerShell?",
+      "opsi": [
+        "Ctrl + V",
+        "Ctrl + C",
+        "Ctrl + Z",
+        "Ctrl + Alt + Del",
+        "Enter"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 37,
+      "materi": "Materi 5: Perulangan (Looping)",
+      "pertanyaan": "Apa fungsi dari kata kunci `break` di dalam blok perulangan?",
+      "opsi": [
+        "Melompati iterasi saat ini dan langsung lanjut ke iterasi berikutnya",
+        "Menghentikan atau keluar dari blok perulangan secara paksa di tengah jalan",
+        "Mengulang kembali program dari baris pertama",
+        "Menjeda eksekusi program selama 5 detik",
+        "Mengosongkan memori variabel di dalam loop"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 38,
+      "materi": "Materi 5: Perulangan (Looping)",
+      "pertanyaan": "Apa perbedaan utama antara pernyataan `break` dan `continue` di dalam perulangan?",
+      "opsi": [
+        "`break` keluar total dari loop, sedangkan `continue` hanya melewatkan sisa iterasi saat itu dan lanjut ke iterasi berikutnya",
+        "`break` hanya untuk perulangan `while`, sedangkan `continue` hanya untuk perulangan `for`",
+        "`break` mempercepat eksekusi, sedangkan `continue` memperlambat eksekusi",
+        "Tidak ada perbedaan, keduanya memiliki fungsi yang persis sama",
+        "`break` menyebabkan error sintaks, sedangkan `continue` aman"
+      ],
+      "jawaban": "a"
+    },
+    {
+      "id": 39,
+      "materi": "Materi 5: Perulangan (Looping)",
+      "pertanyaan": "Blok pernyataan `else` yang dipasangkan dengan perulangan `while` akan dieksekusi kapan?",
+      "opsi": [
+        "Setiap kali iterasi perulangan berhasil diselesaikan",
+        "Hanya ketika kondisi pada `while` sudah bernilai salah (`False`) secara normal",
+        "Jika perulangan dihentikan secara paksa menggunakan `break`",
+        "Ketika terjadi error di dalam blok kode `while`",
+        "Sebelum perulangan `while` dimulai"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 40,
+      "materi": "Materi 5: Perulangan (Looping)",
+      "pertanyaan": "Manakah kombinasi fungsi yang paling sering digunakan bersama perulangan `for` untuk mengiterasi sebuah list berdasarkan indeks elemennya?",
+      "opsi": [
+        "`range()` dan `len()`",
+        "`input()` dan `print()`",
+        "`int()` dan `float()`",
+        "`max()` dan `min()`",
+        "`open()` dan `close()`"
+      ],
+      "jawaban": "a"
+    },
+    {
+      "id": 41,
+      "materi": "Materi 6: List & Tuple",
+      "pertanyaan": "Manakah penulisan yang benar untuk mendeklarasikan sebuah **list** kosong di Python?",
+      "opsi": [
+        "`my_list = {}`",
+        "`my_list = ()`",
+        "`my_list = []`",
+        "`my_list = set()`",
+        "`my_list = <>`"
+      ],
+      "jawaban": "c"
+    },
+    {
+      "id": 42,
+      "materi": "Materi 6: List & Tuple",
+      "pertanyaan": "Apa perbedaan paling mendasar antara tipe data `list` dan `tuple` di Python?",
+      "opsi": [
+        "`list` menggunakan kurung siku `[]`, sedangkan `tuple` menggunakan kurung biasa `()`",
+        "`list` bersifat *mutable* (dapat diubah isinya), sedangkan `tuple` bersifat *immutable* (tidak dapat diubah)",
+        "`list` hanya bisa berisi angka, sedangkan `tuple` hanya bisa berisi string",
+        "Kecepatan iterasi `list` jauh lebih lambat daripada `tuple`",
+        "Pilihan a dan b benar"
+      ],
+      "jawaban": "e"
+    },
+    {
+      "id": 43,
+      "materi": "Materi 6: List & Tuple",
+      "pertanyaan": "Metode list manakah yang digunakan untuk menambahkan satu elemen baru di **bagian akhir** dari sebuah list?",
+      "opsi": [
+        "`.insert()`",
+        "`.append()`",
+        "`.extend()`",
+        "`.remove()`",
+        "`.pop()`"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 44,
+      "materi": "Materi 6: List & Tuple",
+      "pertanyaan": "Perhatikan potongan kode list berikut:",
+      "kode": "ganjil = [1, 3, 5, 7]\nganjil.insert(2, 9)\nprint(ganjil)",
+      "lanjutan": "Apa output hasil cetak dari program tersebut?",
+      "opsi": [
+        "`[1, 3, 5, 7, 9]`",
+        "`[1, 3, 9, 5, 7]`",
+        "`[9, 1, 3, 5, 7]`",
+        "`[1, 9, 3, 5, 7]`",
+        "`[1, 3, 5, 9, 7]`"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 45,
+      "materi": "Materi 6: List & Tuple",
+      "pertanyaan": "Apa fungsi dari metode `.pop()` pada sebuah list di Python?",
+      "opsi": [
+        "Menghapus semua elemen list sekaligus",
+        "Menghapus elemen berdasarkan indeks tertentu sekaligus mengembalikan (return) nilai elemen yang dihapus tersebut",
+        "Mengurutkan posisi elemen dari kecil ke besar",
+        "Membalikkan urutan elemen list dari belakang ke depan",
+        "Menyisipkan elemen baru di posisi indeks pertama"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 46,
+      "materi": "Materi 6: List & Tuple",
+      "pertanyaan": "Jika Anda memiliki sebuah tuple `t = (10, 20, 30, 40, 50)` dan mencoba mengubah nilainya dengan perintah `t[1] = 99`, pesan error apa yang akan dimunculkan oleh Python?",
+      "opsi": [
+        "SyntaxError",
+        "IndexError",
+        "TypeError: 'tuple' object does not support item assignment",
+        "ValueError",
+        "IndentationError"
+      ],
+      "jawaban": "c"
+    },
+    {
+      "id": 47,
+      "materi": "Materi 6: List & Tuple",
+      "pertanyaan": "Apa kegunaan utama dari metode `.count(x)` pada sebuah tuple atau list?",
+      "opsi": [
+        "Menghitung total jumlah seluruh elemen yang ada di dalam struktur data",
+        "Mengembalikan jumlah berapa kali suatu item `x` muncul di dalam tuple/list tersebut",
+        "Mencari nomor indeks posisi pertama di mana item `x` ditemukan",
+        "Mengurutkan kemunculan elemen secara alfabetis",
+        "Menghitung total nilai penjumlahan seluruh elemen angka"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 48,
+      "materi": "Materi 6: List & Tuple",
+      "pertanyaan": "Mengapa dalam beberapa kasus pemrogram lebih memilih menggunakan `tuple` dibandingkan `list`?",
+      "opsi": [
+        "Karena tuple bisa diubah isinya kapan saja dengan fleksibel",
+        "Karena iterasi pada tuple cenderung lebih cepat dan menjamin data aman dari perubahan (*write-protected*)",
+        "Karena tuple mendukung metode `.append()` dan `.sort()`",
+        "Karena ukuran memori tuple lebih besar daripada list",
+        "Karena tuple adalah satu-satunya tipe data yang mendukung matriks 2D"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 49,
+      "materi": "Materi 6: List & Tuple",
+      "pertanyaan": "Perhatikan potongan kode berikut:",
+      "kode": "data = ['a', 'b', 'c']\ndata *= 2\nprint(data)",
+      "lanjutan": "Apa output dari perintah tersebut?",
+      "opsi": [
+        "`['a', 'b', 'c', 'a', 'b', 'c']`",
+        "`['aa', 'bb', 'cc']`",
+        "`['a', 'b', 'c', 2]`",
+        "Error",
+        "`['ab', 'bc']`"
+      ],
+      "jawaban": "a"
+    },
+    {
+      "id": 50,
+      "materi": "Materi 6: List & Tuple",
+      "pertanyaan": "Fungsi bawaan Python apa yang digunakan untuk mengubah sebuah urutan data (*sequence*) seperti list atau string menjadi sebuah `tuple`?",
+      "opsi": [
+        "`list()`",
+        "`tuple()`",
+        "`set()`",
+        "`dict()`",
+        "`str()`"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 51,
+      "materi": "Materi 7: Matrix & Library Pandas",
+      "pertanyaan": "Di dalam bahasa pemrograman Python, bagaimana cara umum merepresentasikan sebuah matriks 2 dimensi (dengan baris dan kolom)?",
+      "opsi": [
+        "Menggunakan kamus data (dictionary) bersarang",
+        "Menggunakan list bersarang (*list inside a list*)",
+        "Menggunakan tipe data tuple tunggal",
+        "Menggunakan fungsi matematika khusus dari modul `math`",
+        "Menggunakan variabel string multibaris"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 52,
+      "materi": "Materi 7: Matrix & Library Pandas",
+      "pertanyaan": "Apa yang dimaksud dengan ordo sebuah matriks yang dinotasikan sebagai m × n?",
+      "opsi": [
+        "Ukuran dimensi matriks di mana m menyatakan jumlah baris dan n menyatakan jumlah kolom",
+        "Jumlah total seluruh elemen di dalam matriks (m dikali n)",
+        "Nilai determinan maksimum dari matriks persegi",
+        "Jumlah diagonal utama pada matriks",
+        "Posisi indeks awal elemen matriks"
+      ],
+      "jawaban": "a"
+    },
+    {
+      "id": 53,
+      "materi": "Materi 7: Matrix & Library Pandas",
+      "pertanyaan": "Perhatikan operasi matematika pada matriks:\nSyarat utama agar dua buah matriks dapat dilakukan operasi penjumlahan atau pengurangan adalah...",
+      "opsi": [
+        "Jumlah baris matriks pertama harus sama dengan jumlah kolom matriks kedua",
+        "Kedua matriks harus memiliki ordo (ukuran dimensi) yang persis sama",
+        "Semua elemen di dalam matriks harus berupa bilangan pecahan (float)",
+        "Matriks harus berbentuk bujur sangkar (n × n)",
+        "Nilai determinan kedua matriks tidak boleh bernilai nol"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 54,
+      "materi": "Materi 7: Matrix & Library Pandas",
+      "pertanyaan": "Operasi perkalian dua buah matriks di Python membutuhkan struktur perulangan bersarang sebanyak berapa tingkat (*nested loop*) secara umum?",
+      "opsi": [
+        "1 tingkat perulangan",
+        "2 tingkat perulangan",
+        "3 tingkat perulangan",
+        "4 tingkat perulangan",
+        "Tidak membutuhkan perulangan sama sekali"
+      ],
+      "jawaban": "c"
+    },
+    {
+      "id": 55,
+      "materi": "Materi 7: Matrix & Library Pandas",
+      "pertanyaan": "Apa kepanjangan atau arti dari nama library **Pandas** dalam ekosistem Python?",
+      "opsi": [
+        "Python Data Analysis Library (turunan dari Panel Data)",
+        "Python Database Access System",
+        "Parallel Data Algorithm Standard",
+        "Python Document Automation Script",
+        "Portable Data Architecture Network"
+      ],
+      "jawaban": "a"
+    },
+    {
+      "id": 56,
+      "materi": "Materi 7: Matrix & Library Pandas",
+      "pertanyaan": "Struktur data 2 dimensi utama di dalam library Pandas yang menyerupai bentuk tabel (memiliki baris dan kolom berlabel) dinamakan...",
+      "opsi": [
+        "Series",
+        "DataFrame",
+        "Panel",
+        "Array",
+        "Matrix"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 57,
+      "materi": "Materi 7: Matrix & Library Pandas",
+      "pertanyaan": "Perintah terminal apa yang digunakan untuk menginstal library Pandas melalui pip di lingkungan Python?",
+      "opsi": [
+        "`python get pandas`",
+        "`pip install pandas`",
+        "`install library pandas`",
+        "`pip download pandas.py`",
+        "`setup pandas package`"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 58,
+      "materi": "Materi 7: Matrix & Library Pandas",
+      "pertanyaan": "Sebelum kita dapat menggunakan fungsi-fungsi dari library Pandas di dalam script Python, baris kode apa yang harus dituliskan di bagian atas?",
+      "opsi": [
+        "`import pandas`",
+        "`import pandas as pd`",
+        "`load library pandas`",
+        "`include pandas.h`",
+        "`using pandas`"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 59,
+      "materi": "Materi 7: Matrix & Library Pandas",
+      "pertanyaan": "Dalam sebuah Pandas DataFrame, apa yang secara umum direpresentasikan oleh komponen **Baris (Row)**?",
+      "opsi": [
+        "Field atau atribut data",
+        "Record atau entitas data tunggal",
+        "Nama tabel database",
+        "Tipe data kolom",
+        "Nilai indeks baris otomatis"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 60,
+      "materi": "Materi 7: Matrix & Library Pandas",
+      "pertanyaan": "Apa keuntungan utama menggunakan Pandas DataFrame dibandingkan list biasa untuk mengolah data tabel berukuran besar?",
+      "opsi": [
+        "Menyediakan banyak fungsi bawaan yang sangat kaya untuk filtering, grouping, query, dan analisis data terstruktur dengan mudah",
+        "Tidak memerlukan memori RAM sama sekali",
+        "Dapat dijalankan tanpa harus menginstal interpreter Python",
+        "Otomatis mengubah seluruh tipe data menjadi integer",
+        "Menghilangkan kebutuhan akan struktur perulangan"
+      ],
+      "jawaban": "a"
+    },
+    {
+      "id": 61,
+      "materi": "Materi 8 & 9: Fungsi (Function)",
+      "pertanyaan": "Apakah keuntungan utama dari penggunaan **fungsi** (*function*) di dalam pemrograman?",
+      "opsi": [
+        "Membuat ukuran file program menjadi jauh lebih besar",
+        "Menerapkan prinsip *reusable code* (kode dapat digunakan kembali) dan memecah program besar menjadi bagian terkelola",
+        "Memaksa program berjalan hanya dalam mode satu baris",
+        "Menghilangkan kebutuhan penggunaan variabel global",
+        "Menjamin program terbebas dari kesalahan logika"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 62,
+      "materi": "Materi 8 & 9: Fungsi (Function)",
+      "pertanyaan": "Kata kunci apa yang digunakan untuk mendefinisikan atau membuat sebuah fungsi baru di dalam bahasa Python?",
+      "opsi": [
+        "`function`",
+        "`def`",
+        "`fun`",
+        "`define`",
+        "`lambda_func`"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 63,
+      "materi": "Materi 8 & 9: Fungsi (Function)",
+      "pertanyaan": "Perhatikan potongan kode berikut:",
+      "kode": "def sapa(nama):\n    print(\"Halo\", nama)",
+      "lanjutan": "Apa sebutan untuk variabel `nama` di dalam tanda kurung tersebut?",
+      "opsi": [
+        "Nilai return",
+        "Argumen atau parameter fungsi",
+        "Variabel global",
+        "Docstring fungsi",
+        "Keyword argument"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 64,
+      "materi": "Materi 8 & 9: Fungsi (Function)",
+      "pertanyaan": "Apa fungsi dari baris teks dokumentasi di dalam fungsi (*docstring*) yang diapit oleh tanda kutip tiga (`\"\"\"...\"\"\"`) tepat di bawah baris `def`?",
+      "opsi": [
+        "Sebagai instruksi eksekusi utama bagi komputer",
+        "Sebagai dokumentasi atau penjelasan singkat mengenai kegunaan fungsi tersebut",
+        "Untuk mendeklarasikan variabel lokal otomatis",
+        "Untuk mengembalikan nilai ke luar fungsi",
+        "Mempercepat waktu kompilasi program"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 65,
+      "materi": "Materi 8 & 9: Fungsi (Function)",
+      "pertanyaan": "Apa yang akan dikembalikan oleh sebuah fungsi di Python jika fungsi tersebut tidak memiliki pernyataan `return` atau ekspresi return-nya dikosongkan?",
+      "opsi": [
+        "Angka 0",
+        "Nilai Boolean `False`",
+        "Objek khusus `None`",
+        "String kosong `\"\"`",
+        "Terjadi error `TypeError`"
+      ],
+      "jawaban": "c"
+    },
+    {
+      "id": 66,
+      "materi": "Materi 8 & 9: Fungsi (Function)",
+      "pertanyaan": "Jenis argumen fungsi di mana nilai parameter dikirimkan berdasarkan urutan posisi persis saat pemanggilan fungsi dinamakan...",
+      "opsi": [
+        "Keyword argument",
+        "Required positional argument",
+        "Default argument",
+        "Arbitrary argument",
+        "Global argument"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 67,
+      "materi": "Materi 8 & 9: Fungsi (Function)",
+      "pertanyaan": "Perhatikan definisi fungsi berikut:",
+      "kode": "def cetak_info(nama, usia=17):\n    print(nama, usia)",
+      "lanjutan": "Jika fungsi dipanggil dengan perintah `cetak_info(nama=\"Budi\")`, berapa nilai usia yang akan dicetak ke layar?",
+      "opsi": [
+        "Terjadi error karena usia tidak diisi",
+        "0",
+        "17 (nilai default)",
+        "None",
+        "Budi"
+      ],
+      "jawaban": "c"
+    },
+    {
+      "id": 68,
+      "materi": "Materi 8 & 9: Fungsi (Function)",
+      "pertanyaan": "Bagaimana cara mendefinisikan fungsi di Python yang dapat menerima jumlah argumen masukan yang tidak terbatas atau sembarang (*arbitrary arguments*)?",
+      "opsi": [
+        "Menggunakan tanda titik dua `:`",
+        "Menggunakan tanda asterisk tunggal di depan parameter (contoh: `*args` atau `*vartuple`)",
+        "Menggunakan tanda kurung siku `[]`",
+        "Menggunakan kata kunci `unlimited`",
+        "Tidak perlu menuliskan parameter sama sekali"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 69,
+      "materi": "Materi 8 & 9: Fungsi (Function)",
+      "pertanyaan": "Apa perbedaan utama antara variabel dengan ruang lingkup **Global** dan **Local** di Python?",
+      "opsi": [
+        "Variabel global hanya bisa diakses di dalam fungsi, sedangkan lokal di luar fungsi",
+        "Variabel lokal didefinisikan di dalam fungsi dan hanya bisa diakses dari dalam fungsi tersebut, sedangkan variabel global didefinisikan di luar fungsi dan dapat diakses dari seluruh bagian program",
+        "Variabel lokal tidak membutuhkan memori RAM sama sekali",
+        "Variabel global bersifat *immutable*, sedangkan lokal bersifat *mutable*",
+        "Tidak ada perbedaan cakupan akses"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 70,
+      "materi": "Materi 8 & 9: Fungsi (Function)",
+      "pertanyaan": "Perhatikan potongan kode fungsi berikut:",
+      "kode": "def hitung(a, b):\n    total = a + b\n    return total\nx = hitung(5, 10)",
+      "lanjutan": "Apakah variabel `total` dapat diakses langsung dari luar fungsi (misalnya dengan perintah `print(total)`)?",
+      "opsi": [
+        "Ya, karena variabel total otomatis menjadi global",
+        "Tidak, karena `total` adalah variabel lokal yang ruang lingkupnya terbatas di dalam fungsi `hitung`",
+        "Ya, selama dipanggil setelah pemanggilan fungsi",
+        "Tergantung pada versi Python yang digunakan",
+        "Ya, jika menggunakan argumen default"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 71,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Manakah perintah Python yang benar untuk menerima input angka bulat dari pengguna dan menyimpannya ke dalam variabel `umur`?",
+      "opsi": [
+        "`umur = input(\"Masukkan umur: \")`",
+        "`umur = int(input(\"Masukkan umur: \"))`",
+        "`umur = float(input(\"Masukkan umur: \"))`",
+        "`umur = str(input(\"Masukkan umur: \"))`",
+        "`umur = eval_int(input(\"Masukkan umur: \"))`"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 72,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Apa output dari ekspresi logika Python berikut: `print(not(True or False))`?",
+      "opsi": [
+        "True",
+        "False",
+        "None",
+        "Error",
+        "1"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 73,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Perhatikan kode berikut:",
+      "kode": "text = \"Algoritma\"\nprint(text[-3:])",
+      "lanjutan": "Apa output dari perintah pemotongan string tersebut?",
+      "opsi": [
+        "Alg",
+        "rit",
+        "tma",
+        "ritma",
+        "rithm"
+      ],
+      "jawaban": "c"
+    },
+    {
+      "id": 74,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Jika sebuah file program Python bernama `latihan.py` dijalankan, ekstensi file apa yang secara umum dihasilkan setelah program dikompilasi ke bytecode oleh interpreter?",
+      "opsi": [
+        "`.exe`",
+        "`.pyc` (di dalam folder `__pycache__`)",
+        "`.txt`",
+        "`.dat`",
+        "`.html`"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 75,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Manakah metode list yang berfungsi untuk membalikkan urutan elemen list secara permanen di tempat (*in-place*)?",
+      "opsi": [
+        "`.sort(reverse=True)`",
+        "`.reverse()`",
+        "`.invert()`",
+        "`.back()`",
+        "`.flip()`"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 76,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Apa fungsi dari modul `fractions` di Python?",
+      "opsi": [
+        "Menangani perhitungan angka pecahan menggunakan pembilang dan penyebut eksak layaknya di sekolah",
+        "Mengatur format pecahan desimal otomatis hingga 100 digit",
+        "Melakukan operasi matriks lanjutan",
+        "Membaca file spreadsheet eksternal",
+        "Mengonversi tipe data string ke float"
+      ],
+      "jawaban": "a"
+    },
+    {
+      "id": 77,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Perhatikan kode perulangan `for`:",
+      "kode": "for ch in \"BSI\":\n    print(ch, end=\"-\")",
+      "lanjutan": "Apa hasil keluaran cetak ke layar?",
+      "opsi": [
+        "B-S-I-",
+        "-B-S-I",
+        "BSI-",
+        "B-S-I",
+        "B S I"
+      ],
+      "jawaban": "a"
+    },
+    {
+      "id": 78,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Manakah struktur kendali yang paling tepat digunakan untuk membuat menu pilihan program interaktif (Pilihan 1: Tambah, Pilihan 2: Hapus, Pilihan 3: Keluar)?",
+      "opsi": [
+        "`if-elif-else` atau struktur `match-case`",
+        "`for` loop tunggal",
+        "Fungsi `print()` berulang",
+        "Operasi bitwise `&` dan `|`",
+        "Modul `decimal`"
+      ],
+      "jawaban": "a"
+    },
+    {
+      "id": 79,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Apa yang terjadi jika Anda mencoba mengakses elemen list dengan indeks yang melebihi jumlah total elemen yang ada (misal list berisi 3 elemen, tapi memanggil indeks ke-5)?",
+      "opsi": [
+        "Program berjalan normal dan mengembalikan nilai `None`",
+        "Muncul pesan kesalahan `IndexError: list index out of range`",
+        "Otomatis dibuat elemen baru secara dinamis",
+        "Muncul pesan `KeyError`",
+        "Komputer akan melakukan *restart* otomatis"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 80,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Bagaimana cara mendeklarasikan sebuah tuple di Python yang **hanya berisi tepat satu elemen** angka `10` agar dikenali sebagai tuple dan bukan sekadar kurung biasa?",
+      "opsi": [
+        "`t = (10)`",
+        "`t = (10,)`",
+        "`t = [10]`",
+        "`t = tuple(10)`",
+        "`t = 10`"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 81,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Apa kegunaan fungsi bawaan `len()` ketika diterapkan pada tipe data string, list, atau tuple?",
+      "opsi": [
+        "Mengembalikan jumlah total elemen atau karakter yang dikandung oleh objek tersebut",
+        "Mengubah ukuran memori objek menjadi minimum",
+        "Mencari nilai elemen terbesar di dalam koleksi data",
+        "Mengonversi koleksi data menjadi huruf besar",
+        "Menghapus elemen pertama dari koleksi"
+      ],
+      "jawaban": "a"
+    },
+    {
+      "id": 82,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Dalam operasi logika percabangan, ekspresi `True or False and False` akan dievaluasi oleh Python menghasilkan nilai...",
+      "opsi": [
+        "False",
+        "True",
+        "None",
+        "Error",
+        "Bergantung pada urutan memori"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 83,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Manakah fungsi modul `math` di Python yang digunakan untuk menghitung nilai faktorial dari suatu bilangan bulat positif?",
+      "opsi": [
+        "`math.pow()`",
+        "`math.factorial()`",
+        "`math.sqrt()`",
+        "`math.log()`",
+        "`math.fabs()`"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 84,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Apa fungsi dari perintah `import decimal` dalam script Python?",
+      "opsi": [
+        "Memungkinkan program mencetak angka desimal di layar",
+        "Mengaktifkan kelas aritmetika presisi desimal tetap dan dapat dikonfigurasi untuk menghindari galat pembulatan float",
+        "Mengubah seluruh variabel integer menjadi float",
+        "Mempercepat waktu eksekusi CPU",
+        "Menghapus koma pada bilangan pecahan"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 85,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Perhatikan kode berikut:",
+      "kode": "x = [1, 2, 3]\ny = x\ny.append(4)\nprint(x)",
+      "lanjutan": "Apa output yang dicetak untuk variabel `x`?",
+      "opsi": [
+        "`[1, 2, 3]`",
+        "`[1, 2, 3, 4]`",
+        "`[4, 1, 2, 3]`",
+        "Error",
+        "`[1, 2, 3], [4]`"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 86,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Apa tujuan utama dari tahapan *testing* dan pengujian test case pada pengembangan algoritma awal?",
+      "opsi": [
+        "Memastikan bahwa program menghasilkan output yang benar dan sesuai spesifikasi untuk berbagai variasi data masukan",
+        "Menghapus file kode sumber yang tidak terpakai",
+        "Mempercantik antarmuka teks di terminal",
+        "Mengurangi jumlah baris kode program",
+        "Menghindari penggunaan fungsi `input()`"
+      ],
+      "jawaban": "a"
+    },
+    {
+      "id": 87,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Apa fungsi dari metode `.startswith(\"I\")` pada sebuah string di Python?",
+      "opsi": [
+        "Memeriksa apakah string diakhiri dengan huruf \"I\"",
+        "Memeriksa apakah string diawali dengan karakter atau substring \"I\" (mengembalikan True/False)",
+        "Mengganti semua huruf \"I\" menjadi huruf kecil",
+        "Menghitung jumlah kemunculan huruf \"I\"",
+        "Mengubah posisi string ke awal baris"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 88,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Manakah pernyataan yang benar mengenai konsep argumen ber-*keyword* (*keyword arguments*) saat memanggil fungsi di Python?",
+      "opsi": [
+        "Kita harus selalu menuliskan argumen secara berurutan sesuai posisi definisinya",
+        "Kita dapat memanggil argumen dengan menyebutkan secara langsung nama parameternya sehingga urutan posisi tidak menjadi masalah",
+        "Hanya boleh digunakan pada fungsi matematika bawaan sistem",
+        "Nilai argumen tidak boleh diubah di dalam fungsi",
+        "Bersifat wajib dan tidak boleh memiliki nilai default"
+      ],
+      "jawaban": "b"
+    },
+    {
+      "id": 89,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Bagaimana cara menghapus suatu elemen tertentu dari list berdasarkan **nilai isinya** (bukan nomor indeksnya)?",
+      "opsi": [
+        "Menggunakan metode `.remove(nilai)`",
+        "Menggunakan metode `.pop()`",
+        "Menggunakan perintah `del list[index]`",
+        "Menggunakan metode `.clear()`",
+        "Menggunakan fungsi `min()`"
+      ],
+      "jawaban": "a"
+    },
+    {
+      "id": 90,
+      "materi": "Tambahan soal komprehensif",
+      "pertanyaan": "Apa kegunaan utama dari fungsi `enumerate()` ketika dikombinasikan dengan perulangan `for` pada struktur data berurutan?",
+      "opsi": [
+        "Mengembalikan objek yang menghasilkan pasangan indeks dan nilai elemen secara bersamaan",
+        "Mengurutkan data dari angka terkecil ke terbesar",
+        "Mengubah list menjadi kamus data (dictionary)",
+        "Menghitung rata-rata nilai elemen angka",
+        "Memfilter data kosong dari list"
+      ],
+      "jawaban": "a"
+    }
+  ]
+}

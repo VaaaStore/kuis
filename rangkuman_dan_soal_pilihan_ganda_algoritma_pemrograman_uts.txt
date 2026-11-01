@@ -1,0 +1,752 @@
+============================================================
+RINGKASAN MATERI & SOAL ULANG TENGAH SEMESTER (UTS)
+MATA KULIAH: ALGORITMA DAN PEMROGRAMAN (PERTEMUAN 1 - 9)
+============================================================
+
+A. RINGKASAN MATERI UTAMA
+1. Pertemuan 1: Pengantar Algoritma, Pseudocode, Flowchart, dan Dasar Python.
+   - Algoritma adalah urutan langkah logis, sistematis, dan berhingga untuk menyelesaikan masalah.
+   - Karakteristik: Input, Output, Definiteness (tidak ambigu), Finiteness (berhenti), Effectiveness.
+   - Pendekatan Input-Process-Output (IPO).
+   - Representasi: Bahasa natural, Pseudocode, Flowchart, dan Kode Program.
+   - Dasar Python: Variabel, Tipe Data (`int`, `float`, `str`, `bool`), fungsi `input()`, `print()`, dan operator dasar.
+
+2. Pertemuan 2 & 4: Struktur Kontrol Seleksi (Percabangan)
+   - Alur sekuensial berjalan lurus dari atas ke bawah, sedangkan percabangan mengambil keputusan berdasarkan kondisi Boolean (`True`/`False`).
+   - Struktur percabangan Python: `if`, `if-else`, `if-elif-else`, dan `nested if`.
+   - Operator Perbandingan (`>`, `<`, `==`, `!=`, `>=`, `<=`) dan Operator Logika (`and`, `or`, `not`).
+   - Pentingnya indentasi (spasi) untuk mendefinisikan blok kode di Python.
+
+3. Pertemuan 3: String, Bilangan, dan Operator
+   - String bersifat *immutable* (tidak dapat diubah langsung isinya per indeks). Menggunakan indeks positif (dari 0) dan negatif (dari -1).
+   - Operasi String: Slicing (`[:]`), penggabungan (`+`), perkalian (`*`), `len()`, escape characters (`\n`, `\t`), dan fungsi format (`.format()` atau `%`).
+   - Bilangan: `int`, `float`, `complex`. Masalah presisi float dapat diatasi menggunakan modul `decimal` atau `fractions`.
+   - Operator lengkap: Aritmatika, Perbandingan, Penugasan, Logika, Bitwise, Identitas (`is`, `is not`), dan Keanggotaan (`in`, `not in`).
+
+4. Pertemuan 5: Perulangan (Looping)
+   - Digunakan untuk mengeksekusi blok kode berulang kali.
+   - Perulangan `for`: Mengiterasi objek berurutan (*sequence* seperti `string`, `list`, `tuple`) serta dikombinasikan dengan fungsi `range()`.
+   - Perulangan `while`: Berjalan selama kondisi bernilai `True`. Perlu hati-hati terhadap *infinite loop*.
+   - Kontrol Looping: `break` (keluar paksa dari loop) dan `continue` (melompati iterasi saat ini ke iterasi berikutnya).
+
+5. Pertemuan 6: List dan Tuple
+   - `list`: Tipe data berurutan yang bersifat *mutable* (dapat diubah), didefinisikan dengan kurung siku `[]`. Memiliki metode seperti `append()`, `extend()`, `insert()`, `remove()`, `pop()`, `sort()`, dll.
+   - `tuple`: Mirip dengan `list` namun bersifat *immutable* (tidak dapat diubah), didefinisikan dengan kurung biasa `()`. Lebih cepat untuk iterasi dan aman dari perubahan data.
+
+6. Pertemuan 7: Matriks dan Library Pandas
+   - Matriks direpresentasikan di Python sebagai *list dua dimensi* (list di dalam list).
+   - Operasi matriks dasar: Penjumlahan, pengurangan, dan perkalian matriks menggunakan *nested loop*.
+   - Library `Pandas`: Digunakan untuk analisis data terstruktur dengan struktur data utama berupa `DataFrame` (tabel 2 dimensi baris dan kolom).
+
+7. Pertemuan 8 & 9: Fungsi (Function)
+   - Blok program yang dapat digunakan kembali (*reusable*) dengan kata kunci `def`.
+   - Komponen fungsi: Nama fungsi, parameter/argumen, *docstring*, blok pernyataan, dan `return`.
+   - Jenis Argumen: Argumen wajib, Argumen kata kunci (*keyword argument*), Argumen default, dan Argumen panjang sembarang (`*args`).
+   - Ruang lingkup variabel (*scope*): Variabel *Global* (di luar fungsi) dan *Local* (di dalam fungsi).
+
+============================================================
+KUMPULAN SOAL PILIHAN GANDA (90 SOAL TOTAL)
+============================================================
+
+--- MATERI 1: Algoritma, Pseudocode, Flowchart, Dasar Python ---
+1. Apa definisi utama dari algoritma dalam konteks ilmu komputer?
+   a. Bahasa pemrograman tingkat tinggi yang harus dijalankan interpreter
+   b. Urutan langkah-langkah logis, sistematis, dan berhingga untuk menyelesaikan masalah
+   c. Perintah khusus yang hanya dipahami oleh sistem operasi Windows
+   d. Kumpulan data acak yang disimpan di dalam memori komputer
+   e. Hasil akhir dari eksekusi sebuah program perangkat lunak
+
+2. Karakteristik algoritma yang menyatakan bahwa setiap langkah harus jelas, tidak ambigu, dan memiliki arti tegas adalah...
+   a. Input
+   b. Output
+   c. Definiteness
+   d. Finiteness
+   e. Effectiveness
+
+3. Dalam alur pemecahan masalah komputasional, tahapan setelah analisis masalah dan sebelum pembuatan kode program Python adalah...
+   a. Testing dan Evaluasi
+   b. Algoritma -> Pseudocode/Flowchart
+   c. Kompilasi biner
+   d. Debugging memori RAM
+   e. Maintenance aplikasi
+
+4. Simbol flowchart berupa belah ketupat (diamond) digunakan untuk menyatakan...
+   a. Proses perhitungan aritmetika
+   b. Awal atau akhir dari sebuah program (Terminator)
+   c. Input atau output data
+   d. Keputusan (Decision) berdasarkan kondisi tertentu
+   e. Penghubung antar halaman
+
+5. Apa tipe data hasil default yang dikembalikan oleh fungsi `input()` pada bahasa Python versi 3?
+   a. integer
+   b. float
+   c. boolean
+   d. string
+   e. list
+
+6. Operator aritmetika di Python yang digunakan untuk melakukan operasi pembagian bulat (mengabaikan sisa bagi/tanpa koma) adalah...
+   a. /
+   b. %
+   c. //
+   d. **
+   e. / =
+
+7. Perhatikan potongan kode berikut:
+   x = 10
+   y = 3
+   z = x * y
+   z = z + 2
+   print(z)
+   Berapa nilai keluaran akhir dari variabel z?
+   a. 30
+   b. 32
+   c. 35
+   d. 29
+   e. 33
+
+8. Manakah di bawah ini yang merupakan aturan penulisan nama variabel yang **salah** atau tidak valid di Python?
+   a. `nama_mahasiswa`
+   b. `nilaiUts1`
+   c. `1_variabel`
+   d. `_total_harga`
+   e. `totalHarga`
+
+9. Apa fungsi utama dari simbol jajar genjang dalam pembuatan flowchart standar?
+   a. Menunjukkan proses pengolahan data atau perhitungan rumus
+   b. Menyatakan awal dan akhir program
+   c. Menerima data masukan (input) atau menampilkan keluaran (output)
+   d. Menyeleksi data berdasarkan kondisi logika
+   e. Mengalirkan arah eksekusi program
+
+10. Mengapa perancangan algoritma (seperti pseudocode atau flowchart) sangat dianjurkan sebelum langsung mengetik kode program?
+    a. Karena komputer tidak bisa membaca kode Python tanpa flowchart
+    b. Membantu memahami masalah, mengurangi kesalahan logika, dan memudahkan penerjemahan kode
+    c. Agar program berjalan dua kali lipat lebih cepat di CPU
+    d. Karena aturan sintaks Python mewajibkan adanya file flowchart.png
+    e. Untuk menghindari penggunaan tipe data float
+
+--- MATERI 2 & 4: Struktur Kontrol Seleksi (Percabangan) ---
+11. Alur program yang mengeksekusi instruksi secara berurutan dari atas ke bawah tanpa adanya loncatan atau pilihan disebut...
+    a. Alur seleksi
+    b. Alur sekuensial
+    c. Alur iterasi
+    d. Alur rekursif
+    e. Alur modular
+
+12. Operator perbandingan yang digunakan untuk memeriksa apakah dua nilai bernilai **sama dengan** di dalam ekspresi kondisi Python adalah...
+    a. =
+    b. ==
+    c. ===
+    d. !=
+    e. =>
+
+13. Perhatikan potongan kode berikut:
+    nilai = 75
+    if nilai >= 85:
+        print("A")
+    elif nilai >= 70:
+        print("B")
+    else:
+        print("C")
+    Apa output yang akan dicetak ke layar?
+    a. A
+    b. B
+    c. C
+    d. A dan B
+    e. Error
+
+14. Apa fungsi dari operator logika `and` dalam suatu kondisi percabangan Python?
+    a. Menghasilkan True jika minimal salah satu kondisi bernilai benar
+    b. Menghasilkan True jika semua kondisi yang dihubungkan bernilai benar
+    c. Membalikkan nilai kebenaran Boolean (True menjadi False)
+    d. Menggabungkan dua string teks secara berurutan
+    e. Melakukan operasi bitwise pada bilangan biner
+
+15. Apa jenis kesalahan yang akan terjadi jika Anda lupa memberikan tanda titik dua (`:`) di akhir baris pernyataan `if` pada Python?
+    a. IndentationError
+    b. TypeError
+    c. SyntaxError
+    d. ValueError
+    e. IndexError
+
+16. Yang dimaksud dengan *nested if* dalam pemrograman adalah...
+    a. Perulangan di dalam perulangan
+    b. Percabangan (`if` / `else`) yang berada di dalam blok percabangan lainnya
+    c. Fungsi yang memanggil dirinya sendiri secara berulang
+    d. Variabel global yang didefinisikan di dalam fungsi lokal
+    e. Penggabungan dua list menjadi satu list baru
+
+17. Perhatikan kode berikut:
+    a = 10
+    b = 5
+    if a > 5 and b < 10:
+        print("Valid")
+    else:
+        print("Invalid")
+    Apa output dari program tersebut?
+    a. Valid
+    b. Invalid
+    c. True
+    d. False
+    e. Error
+
+18. Apa kegunaan utama dari pernyataan `elif` dalam struktur kendali seleksi Python?
+    a. Menghentikan program secara paksa jika terjadi error
+    b. Menguji beberapa kondisi alternatif secara berurutan setelah kondisi `if` bernilai salah
+    c. Menjalankan blok kode default jika seluruh kondisi di atasnya benar
+    d. Mengulang blok kode sebanyak jumlah elemen dalam list
+    e. Mengubah tipe data string menjadi integer
+
+19. Jika sebuah kondisi percabangan dituliskan `if not(x > 5):`, apa arti dari penggunaan operator `not` tersebut?
+    a. Memastikan bahwa nilai x harus selalu lebih besar dari 5
+    b. Membalikkan hasil evaluasi Boolean dari ekspresi `x > 5`
+    c. Mengalikan nilai x dengan angka 5
+    d. Mengabaikan baris kode di bawahnya jika x bernilai 5
+    e. Mengubah nilai x menjadi tipe data boolean
+
+20. Manakah pernyataan yang paling tepat mengenai fungsi indentasi (penjorokan spasi) pada struktur percabangan di Python?
+    a. Indentasi bersifat opsional dan hanya untuk mempercantik tampilan kode
+    b. Indentasi digunakan oleh Python untuk menentukan blok atau kelompok kode di dalam `if`/`else`
+    c. Indentasi wajib menggunakan persis 8 spasi di setiap baris
+    d. Indentasi hanya digunakan di dalam fungsi matematika saja
+    e. Python akan mengabaikan kesalahan indentasi tanpa menampilkan pesan error
+
+--- MATERI 3: String, Bilangan, & Operator ---
+21. Sifat dari tipe data *string* di dalam bahasa pemrograman Python adalah...
+    a. Mutable (dapat diubah isinya per karakter)
+    b. Immutable (tidak dapat diubah isinya secara langsung setelah didefinisikan)
+    c. Selalu berupa bilangan pecahan dengan presisi 15 digit
+    d. Hanya dapat diisi dengan angka bulat positif
+    e. Otomatis dikonversi menjadi tipe data boolean
+
+22. Perhatikan variabel berikut:
+    var = "Hello Python"
+    Bagaimana cara mengakses huruf 'P' kedua menggunakan indeks positif pada string tersebut?
+    a. var[6]
+    b. var[7]
+    c. var[8]
+    d. var[5]
+    e. var[0]
+
+23. Apa hasil dari eksekusi perintah pemotongan (*slicing*) string berikut?
+    s = "Informatika"
+    print(s[0:4])
+    a. form
+    b. Info
+    c. Inf
+    d. matika
+    e. Infor
+
+24. Karakter escape apa yang digunakan di dalam string Python jika kita ingin membuat baris baru (*newline*)?
+    a. \t
+    b. \b
+    c. \n
+    d. \\
+    e. \r
+
+25. Apa fungsi dari penambahan huruf `r` atau `R` di depan string (contoh: `r"C:\new_folder"`) di Python?
+    a. Mengubah string menjadi huruf kapital seluruhnya (*uppercase*)
+    b. Menjadikannya *raw string* untuk mengabaikan fungsi karakter escape (seperti `\n`)
+    c. Mengonversi string menjadi tipe data angka riil (float)
+    d. Mengenkripsi string menggunakan algoritma hashing
+    e. Menandai bahwa string tersebut adalah komentar program
+
+26. Mengapa operasi aritmetika desimal sederhana seperti `print(1.1 + 2.2)` di Python terkadang menghasilkan angka seperti `3.3000000000000003` alih-alih `3.3` secara persis?
+    a. Karena keterbatasan memori RAM komputer saat eksekusi
+    b. Karena representasi bilangan pecahan biner dalam sistem komputer memiliki presisi terbatas (float IEEE 754)
+    c. Karena modul math belum di-import ke dalam program
+    d. Karena operator penjumlahan `+` mengalami *overflow* memori
+    e. Karena Python secara otomatis membulatkan angka ke bilangan bulat terdekat
+
+27. Modul bawaan Python manakah yang sebaiknya digunakan jika kita ingin membuat aplikasi keuangan yang menuntut presisi desimal mutlak tanpa galat pembulatan biner?
+    a. modul `math`
+    b. modul `random`
+    c. modul `decimal`
+    d. modul `sys`
+    e. modul `os`
+
+28. Apa output dari ekspresi operator keanggotaan berikut?
+    buah = ["apel", "mangga", "jeruk"]
+    print("pisang" not in buah)
+    a. True
+    b. False
+    c. Error
+    d. None
+    e. 0
+
+29. Operator identitas `is` di dalam Python digunakan untuk memeriksa...
+    a. Apakah dua variabel memiliki nilai isi yang sama persis
+    b. Apakah dua variabel menunjuk ke objek atau lokasi memori yang sama persis
+    c. Apakah tipe data kedua variabel adalah integer
+    d. Apakah suatu nilai berada di dalam rentang list tertentu
+    e. Apakah suatu string diawali dengan huruf kapital
+
+30. Metode bawaan string apa yang digunakan untuk mengubah seluruh huruf dalam suatu kalimat menjadi huruf kecil (*lowercase*)?
+    a. `.upper()`
+    b. `.capitalize()`
+    c. `.lower()`
+    d. `.split()`
+    e. `.replace()`
+
+--- MATERI 5: Perulangan (Looping) ---
+31. Struktur perulangan di Python yang paling tepat digunakan jika jumlah iterasi atau perulangannya sudah diketahui secara pasti sebelumnya (misalnya menggunakan rentang angka) adalah...
+    a. `while` loop
+    b. `for` loop
+    c. `if-else` statement
+    d. `try-except` block
+    e. `match-case` statement
+
+32. Berapa jumlah elemen atau angka yang dihasilkan oleh fungsi `range(2, 10, 2)` di Python?
+    a. 5 elemen (2, 4, 6, 8, 10)
+    b. 4 elemen (2, 4, 6, 8)
+    c. 5 elemen (2, 3, 4, 5, 6, 7, 8, 9)
+    d. 3 elemen (2, 5, 8)
+    e. 10 elemen
+
+33. Perhatikan potongan kode berikut:
+    for i in range(3):
+        print(i, end=" ")
+    Apa keluaran hasil cetak dari kode tersebut?
+    a. 1 2 3
+    b. 0 1 2
+    c. 0 1 2 3
+    d. 1 2
+    e. 3 2 1
+
+34. Apa kondisi utama agar perulangan menggunakan `while` terus berjalan (tidak berhenti)?
+    a. Kondisi ekspresi pengujian bernilai `False`
+    b. Kondisi ekspresi pengujian bernilai `True`
+    c. Variabel counter dikurangi satu setiap iterasi
+    d. Menggunakan pernyataan `break` di awal blok
+    e. Program mencapai baris terakhir file
+
+35. Apa yang dimaksud dengan *infinite loop* (perulangan tak berhingga) dalam pemrograman?
+    a. Perulangan yang berjalan sangat cepat tanpa jeda waktu
+    b. Perulangan yang kondisi pengujiannya tidak pernah bernilai salah sehingga tidak pernah berhenti sendiri
+    c. Perulangan yang hanya bisa dieksekusi menggunakan komputer server awan
+    d. Perulangan yang otomatis berhenti setelah 1000 iterasi
+    e. Error yang disebabkan oleh kesalahan pengetikan nama variabel
+
+36. Perintah tombol apa yang biasa digunakan untuk menghentikan proses *infinite loop* yang sedang berjalan di terminal/konsol PowerShell?
+    a. Ctrl + V
+    b. Ctrl + C
+    c. Ctrl + Z
+    d. Ctrl + Alt + Del
+    e. Enter
+
+37. Apa fungsi dari kata kunci `break` di dalam blok perulangan?
+    a. Melompati iterasi saat ini dan langsung lanjut ke iterasi berikutnya
+    b. Menghentikan atau keluar dari blok perulangan secara paksa di tengah jalan
+    c. Mengulang kembali program dari baris pertama
+    d. Menjeda eksekusi program selama 5 detik
+    e. Mengosongkan memori variabel di dalam loop
+
+38. Apa perbedaan utama antara pernyataan `break` dan `continue` di dalam perulangan?
+    a. `break` keluar total dari loop, sedangkan `continue` hanya melewatkan sisa iterasi saat itu dan lanjut ke iterasi berikutnya
+    b. `break` hanya untuk perulangan `while`, sedangkan `continue` hanya untuk perulangan `for`
+    c. `break` mempercepat eksekusi, sedangkan `continue` memperlambat eksekusi
+    d. Tidak ada perbedaan, keduanya memiliki fungsi yang persis sama
+    e. `break` menyebabkan error sintaks, sedangkan `continue` aman
+
+39. Blok pernyataan `else` yang dipasangkan dengan perulangan `while` akan dieksekusi kapan?
+    a. Setiap kali iterasi perulangan berhasil diselesaikan
+    b. Hanya ketika kondisi pada `while` sudah bernilai salah (`False`) secara normal
+    c. Jika perulangan dihentikan secara paksa menggunakan `break`
+    d. Ketika terjadi error di dalam blok kode `while`
+    e. Sebelum perulangan `while` dimulai
+
+40. Manakah kombinasi fungsi yang paling sering digunakan bersama perulangan `for` untuk mengiterasi sebuah list berdasarkan indeks elemennya?
+    a. `range()` dan `len()`
+    b. `input()` dan `print()`
+    c. `int()` dan `float()`
+    d. `max()` dan `min()`
+    e. `open()` dan `close()`
+
+--- MATERI 6: List & Tuple ---
+41. Manakah penulisan yang benar untuk mendeklarasikan sebuah **list** kosong di Python?
+    a. `my_list = {}`
+    b. `my_list = ()`
+    c. `my_list = []`
+    d. `my_list = set()`
+    e. `my_list = <>`
+
+42. Apa perbedaan paling mendasar antara tipe data `list` dan `tuple` di Python?
+    a. `list` menggunakan kurung siku `[]`, sedangkan `tuple` menggunakan kurung biasa `()`
+    b. `list` bersifat *mutable* (dapat diubah isinya), sedangkan `tuple` bersifat *immutable* (tidak dapat diubah)
+    c. `list` hanya bisa berisi angka, sedangkan `tuple` hanya bisa berisi string
+    d. Kecepatan iterasi `list` jauh lebih lambat daripada `tuple`
+    e. Pilihan a dan b benar
+
+43. Metode list manakah yang digunakan untuk menambahkan satu elemen baru di **bagian akhir** dari sebuah list?
+    a. `.insert()`
+    b. `.append()`
+    c. `.extend()`
+    d. `.remove()`
+    e. `.pop()`
+
+44. Perhatikan potongan kode list berikut:
+    ganjil = [1, 3, 5, 7]
+    ganjil.insert(2, 9)
+    print(ganjil)
+    Apa output hasil cetak dari program tersebut?
+    a. `[1, 3, 5, 7, 9]`
+    b. `[1, 3, 9, 5, 7]`
+    c. `[9, 1, 3, 5, 7]`
+    d. `[1, 9, 3, 5, 7]`
+    e. `[1, 3, 5, 9, 7]`
+
+45. Apa fungsi dari metode `.pop()` pada sebuah list di Python?
+    a. Menghapus semua elemen list sekaligus
+    b. Menghapus elemen berdasarkan indeks tertentu sekaligus mengembalikan (return) nilai elemen yang dihapus tersebut
+    c. Mengurutkan posisi elemen dari kecil ke besar
+    d. Membalikkan urutan elemen list dari belakang ke depan
+    e. Menyisipkan elemen baru di posisi indeks pertama
+
+46. Jika Anda memiliki sebuah tuple `t = (10, 20, 30, 40, 50)` dan mencoba mengubah nilainya dengan perintah `t[1] = 99`, pesan error apa yang akan dimunculkan oleh Python?
+    a. SyntaxError
+    b. IndexError
+    c. TypeError: 'tuple' object does not support item assignment
+    d. ValueError
+    e. IndentationError
+
+47. Apa kegunaan utama dari metode `.count(x)` pada sebuah tuple atau list?
+    a. Menghitung total jumlah seluruh elemen yang ada di dalam struktur data
+    b. Mengembalikan jumlah berapa kali suatu item `x` muncul di dalam tuple/list tersebut
+    c. Mencari nomor indeks posisi pertama di mana item `x` ditemukan
+    d. Mengurutkan kemunculan elemen secara alfabetis
+    e. Menghitung total nilai penjumlahan seluruh elemen angka
+
+48. Mengapa dalam beberapa kasus pemrogram lebih memilih menggunakan `tuple` dibandingkan `list`?
+    a. Karena tuple bisa diubah isinya kapan saja dengan fleksibel
+    b. Karena iterasi pada tuple cenderung lebih cepat dan menjamin data aman dari perubahan (*write-protected*)
+    c. Karena tuple mendukung metode `.append()` dan `.sort()`
+    d. Karena ukuran memori tuple lebih besar daripada list
+    e. Karena tuple adalah satu-satunya tipe data yang mendukung matriks 2D
+
+49. Perhatikan potongan kode berikut:
+    data = ['a', 'b', 'c']
+    data *= 2
+    print(data)
+    Apa output dari perintah tersebut?
+    a. `['a', 'b', 'c', 'a', 'b', 'c']`
+    b. `['aa', 'bb', 'cc']`
+    c. `['a', 'b', 'c', 2]`
+    d. Error
+    e. `['ab', 'bc']`
+
+50. Fungsi bawaan Python apa yang digunakan untuk mengubah sebuah urutan data (*sequence*) seperti list atau string menjadi sebuah `tuple`?
+    a. `list()`
+    b. `tuple()`
+    c. `set()`
+    d. `dict()`
+    e. `str()`
+
+--- MATERI 7: Matrix & Library Pandas ---
+51. Di dalam bahasa pemrograman Python, bagaimana cara umum merepresentasikan sebuah matriks 2 dimensi (dengan baris dan kolom)?
+    a. Menggunakan kamus data (dictionary) bersarang
+    b. Menggunakan list bersarang (*list inside a list*)
+    c. Menggunakan tipe data tuple tunggal
+    d. Menggunakan fungsi matematika khusus dari modul `math`
+    e. Menggunakan variabel string multibaris
+
+52. Apa yang dimaksud dengan ordo sebuah matriks yang dinotasikan sebagai $m \times n$?
+    a. Ukuran dimensi matriks di mana $m$ menyatakan jumlah baris dan $n$ menyatakan jumlah kolom
+    b. Jumlah total seluruh elemen di dalam matriks ($m$ dikali $n$)
+    c. Nilai determinan maksimum dari matriks persegi
+    d. Jumlah diagonal utama pada matriks
+    e. Posisi indeks awal elemen matriks
+
+53. Perhatikan operasi matematika pada matriks:
+    Syarat utama agar dua buah matriks dapat dilakukan operasi penjumlahan atau pengurangan adalah...
+    a. Jumlah baris matriks pertama harus sama dengan jumlah kolom matriks kedua
+    b. Kedua matriks harus memiliki ordo (ukuran dimensi) yang persis sama
+    c. Semua elemen di dalam matriks harus berupa bilangan pecahan (float)
+    d. Matriks harus berbentuk bujur sangkar ($n \times n$)
+    e. Nilai determinan kedua matriks tidak boleh bernilai nol
+
+54. Operasi perkalian dua buah matriks di Python membutuhkan struktur perulangan bersarang sebanyak berapa tingkat (*nested loop*) secara umum?
+    a. 1 tingkat perulangan
+    b. 2 tingkat perulangan
+    c. 3 tingkat perulangan
+    d. 4 tingkat perulangan
+    e. Tidak membutuhkan perulangan sama sekali
+
+55. Apa kepanjangan atau arti dari nama library **Pandas** dalam ekosistem Python?
+    a. Python Data Analysis Library (turunan dari Panel Data)
+    b. Python Database Access System
+    c. Parallel Data Algorithm Standard
+    d. Python Document Automation Script
+    e. Portable Data Architecture Network
+
+56. Struktur data 2 dimensi utama di dalam library Pandas yang menyerupai bentuk tabel (memiliki baris dan kolom berlabel) dinamakan...
+    a. Series
+    b. DataFrame
+    c. Panel
+    d. Array
+    e. Matrix
+
+57. Perintah terminal apa yang digunakan untuk menginstal library Pandas melalui pip di lingkungan Python?
+    a. `python get pandas`
+    b. `pip install pandas`
+    c. `install library pandas`
+    d. `pip download pandas.py`
+    e. `setup pandas package`
+
+58. Sebelum kita dapat menggunakan fungsi-fungsi dari library Pandas di dalam script Python, baris kode apa yang harus dituliskan di bagian atas?
+    a. `import pandas`
+    b. `import pandas as pd`
+    c. `load library pandas`
+    d. `include pandas.h`
+    e. `using pandas`
+
+59. Dalam sebuah Pandas DataFrame, apa yang secara umum direpresentasikan oleh komponen **Baris (Row)**?
+    a. Field atau atribut data
+    b. Record atau entitas data tunggal
+    c. Nama tabel database
+    d. Tipe data kolom
+    e. Nilai indeks baris otomatis
+
+60. Apa keuntungan utama menggunakan Pandas DataFrame dibandingkan list biasa untuk mengolah data tabel berukuran besar?
+    a. Menyediakan banyak fungsi bawaan yang sangat kaya untuk filtering, grouping, query, dan analisis data terstruktur dengan mudah
+    b. Tidak memerlukan memori RAM sama sekali
+    c. Dapat dijalankan tanpa harus menginstal interpreter Python
+    d. Otomatis mengubah seluruh tipe data menjadi integer
+    e. Menghilangkan kebutuhan akan struktur perulangan
+
+--- MATERI 8 & 9: Fungsi (Function) ---
+61. Apakah keuntungan utama dari penggunaan **fungsi** (*function*) di dalam pemrograman?
+    a. Membuat ukuran file program menjadi jauh lebih besar
+    b. Menerapkan prinsip *reusable code* (kode dapat digunakan kembali) dan memecah program besar menjadi bagian terkelola
+    c. Memaksa program berjalan hanya dalam mode satu baris
+    d. Menghilangkan kebutuhan penggunaan variabel global
+    e. Menjamin program terbebas dari kesalahan logika
+
+62. Kata kunci apa yang digunakan untuk mendefinisikan atau membuat sebuah fungsi baru di dalam bahasa Python?
+    a. `function`
+    b. `def`
+    c. `fun`
+    d. `define`
+    e. `lambda_func`
+
+63. Perhatikan potongan kode berikut:
+    def sapa(nama):
+        print("Halo", nama)
+    Apa sebutan untuk variabel `nama` di dalam tanda kurung tersebut?
+    a. Nilai return
+    b. Argumen atau parameter fungsi
+    c. Variabel global
+    d. Docstring fungsi
+    e. Keyword argument
+
+64. Apa fungsi dari baris teks dokumentasi di dalam fungsi (*docstring*) yang diapit oleh tanda kutip tiga (`"""..."""`) tepat di bawah baris `def`?
+    a. Sebagai instruksi eksekusi utama bagi komputer
+    b. Sebagai dokumentasi atau penjelasan singkat mengenai kegunaan fungsi tersebut
+    c. Untuk mendeklarasikan variabel lokal otomatis
+    d. Untuk mengembalikan nilai ke luar fungsi
+    e. Mempercepat waktu kompilasi program
+
+65. Apa yang akan dikembalikan oleh sebuah fungsi di Python jika fungsi tersebut tidak memiliki pernyataan `return` atau ekspresi return-nya dikosongkan?
+    a. Angka 0
+    b. Nilai Boolean `False`
+    c. Objek khusus `None`
+    d. String kosong `""`
+    e. Terjadi error `TypeError`
+
+66. Jenis argumen fungsi di mana nilai parameter dikirimkan berdasarkan urutan posisi persis saat pemanggilan fungsi dinamakan...
+    a. Keyword argument
+    b. Required positional argument
+    c. Default argument
+    d. Arbitrary argument
+    e. Global argument
+
+67. Perhatikan definisi fungsi berikut:
+    def cetak_info(nama, usia=17):
+        print(nama, usia)
+    Jika fungsi dipanggil dengan perintah `cetak_info(nama="Budi")`, berapa nilai usia yang akan dicetak ke layar?
+    a. Terjadi error karena usia tidak diisi
+    b. 0
+    c. 17 (nilai default)
+    d. None
+    e. Budi
+
+68. Bagaimana cara mendefinisikan fungsi di Python yang dapat menerima jumlah argumen masukan yang tidak terbatas atau sembarang (*arbitrary arguments*)?
+    a. Menggunakan tanda titik dua `:`
+    b. Menggunakan tanda asterisk tunggal di depan parameter (contoh: `*args` atau `*vartuple`)
+    c. Menggunakan tanda kurung siku `[]`
+    d. Menggunakan kata kunci `unlimited`
+    e. Tidak perlu menuliskan parameter sama sekali
+
+69. Apa perbedaan utama antara variabel dengan ruang lingkup **Global** dan **Local** di Python?
+    a. Variabel global hanya bisa diakses di dalam fungsi, sedangkan lokal di luar fungsi
+    b. Variabel lokal didefinisikan di dalam fungsi dan hanya bisa diakses dari dalam fungsi tersebut, sedangkan variabel global didefinisikan di luar fungsi dan dapat diakses dari seluruh bagian program
+    c. Variabel lokal tidak membutuhkan memori RAM sama sekali
+    d. Variabel global bersifat *immutable*, sedangkan lokal bersifat *mutable*
+    e. Tidak ada perbedaan cakupan akses
+
+70. Perhatikan potongan kode fungsi berikut:
+    def hitung(a, b):
+        total = a + b
+        return total
+    x = hitung(5, 10)
+    Apakah variabel `total` dapat diakses langsung dari luar fungsi (misalnya dengan perintah `print(total)`)?
+    a. Ya, karena variabel total otomatis menjadi global
+    b. Tidak, karena `total` adalah variabel lokal yang ruang lingkupnya terbatas di dalam fungsi `hitung`
+    c. Ya, selama dipanggil setelah pemanggilan fungsi
+    d. Tergantung pada versi Python yang digunakan
+    e. Ya, jika menggunakan argumen default
+
+--- TAMBAHAN SOAL KOMPREHENSIF (71 - 90) ---
+71. Manakah perintah Python yang benar untuk menerima input angka bulat dari pengguna dan menyimpannya ke dalam variabel `umur`?
+    a. `umur = input("Masukkan umur: ")`
+    b. `umur = int(input("Masukkan umur: "))`
+    c. `umur = float(input("Masukkan umur: "))`
+    d. `umur = str(input("Masukkan umur: "))`
+    e. `umur = eval_int(input("Masukkan umur: "))`
+
+72. Apa output dari ekspresi logika Python berikut: `print(not(True or False))`?
+    a. True
+    b. False
+    c. None
+    d. Error
+    e. 1
+
+73. Perhatikan kode berikut:
+    text = "Algoritma"
+    print(text[-3:])
+    Apa output dari perintah pemotongan string tersebut?
+    a. Alg
+    b. rit
+    c. tma
+    d. ritma
+    e. rithm
+
+74. Jika sebuah file program Python bernama `latihan.py` dijalankan, ekstensi file apa yang secara umum dihasilkan setelah program dikompilasi ke bytecode oleh interpreter?
+    a. `.exe`
+    b. `.pyc` (di dalam folder `__pycache__`)
+    c. `.txt`
+    d. `.dat`
+    e. `.html`
+
+75. Manakah metode list yang berfungsi untuk membalikkan urutan elemen list secara permanen di tempat (*in-place*)?
+    a. `.sort(reverse=True)`
+    b. `.reverse()`
+    c. `.invert()`
+    d. `.back()`
+    e. `.flip()`
+
+76. Apa fungsi dari modul `fractions` di Python?
+    a. Menangani perhitungan angka pecahan menggunakan pembilang dan penyebut eksak layaknya di sekolah
+    b. Mengatur format pecahan desimal otomatis hingga 100 digit
+    c. Melakukan operasi matriks lanjutan
+    d. Membaca file spreadsheet eksternal
+    e. Mengonversi tipe data string ke float
+
+77. Perhatikan kode perulangan `for`:
+    for ch in "BSI":
+        print(ch, end="-")
+    Apa hasil keluaran cetak ke layar?
+    a. B-S-I-
+    b. -B-S-I
+    c. BSI-
+    d. B-S-I
+    e. B S I
+
+78. Manakah struktur kendali yang paling tepat digunakan untuk membuat menu pilihan program interaktif (Pilihan 1: Tambah, Pilihan 2: Hapus, Pilihan 3: Keluar)?
+    a. `if-elif-else` atau struktur `match-case`
+    b. `for` loop tunggal
+    c. Fungsi `print()` berulang
+    d. Operasi bitwise `&` dan `|`
+    e. Modul `decimal`
+
+79. Apa yang terjadi jika Anda mencoba mengakses elemen list dengan indeks yang melebihi jumlah total elemen yang ada (misal list berisi 3 elemen, tapi memanggil indeks ke-5)?
+    a. Program berjalan normal dan mengembalikan nilai `None`
+    b. Muncul pesan kesalahan `IndexError: list index out of range`
+    c. Otomatis dibuat elemen baru secara dinamis
+    d. Muncul pesan `KeyError`
+    e. Komputer akan melakukan *restart* otomatis
+
+80. Bagaimana cara mendeklarasikan sebuah tuple di Python yang **hanya berisi tepat satu elemen** angka `10` agar dikenali sebagai tuple dan bukan sekadar kurung biasa?
+    a. `t = (10)`
+    b. `t = (10,)`
+    c. `t = [10]`
+    d. `t = tuple(10)`
+    e. `t = 10`
+
+81. Apa kegunaan fungsi bawaan `len()` ketika diterapkan pada tipe data string, list, atau tuple?
+    a. Mengembalikan jumlah total elemen atau karakter yang dikandung oleh objek tersebut
+    b. Mengubah ukuran memori objek menjadi minimum
+    c. Mencari nilai elemen terbesar di dalam koleksi data
+    d. Mengonversi koleksi data menjadi huruf besar
+    e. Menghapus elemen pertama dari koleksi
+
+82. Dalam operasi logika percabangan, ekspresi `True or False and False` akan dievaluasi oleh Python menghasilkan nilai...
+    a. False
+    b. True
+    c. None
+    d. Error
+    e. Bergantung pada urutan memori
+
+83. Manakah fungsi modul `math` di Python yang digunakan untuk menghitung nilai faktorial dari suatu bilangan bulat positif?
+    a. `math.pow()`
+    b. `math.factorial()`
+    c. `math.sqrt()`
+    d. `math.log()`
+    e. `math.fabs()`
+
+84. Apa fungsi dari perintah `import decimal` dalam script Python?
+    a. Memungkinkan program mencetak angka desimal di layar
+    b. Mengaktifkan kelas aritmetika presisi desimal tetap dan dapat dikonfigurasi untuk menghindari galat pembulatan float
+    c. Mengubah seluruh variabel integer menjadi float
+    d. Mempercepat waktu eksekusi CPU
+    e. Menghapus koma pada bilangan pecahan
+
+85. Perhatikan kode berikut:
+    x = [1, 2, 3]
+    y = x
+    y.append(4)
+    print(x)
+    Apa output yang dicetak untuk variabel `x`?
+    a. `[1, 2, 3]`
+    b. `[1, 2, 3, 4]`
+    c. `[4, 1, 2, 3]`
+    d. Error
+    e. `[1, 2, 3], [4]`
+
+86. Apa tujuan utama dari tahapan *testing* dan pengujian test case pada pengembangan algoritma awal?
+    a. Memastikan bahwa program menghasilkan output yang benar dan sesuai spesifikasi untuk berbagai variasi data masukan
+    b. Menghapus file kode sumber yang tidak terpakai
+    c. Mempercantik antarmuka teks di terminal
+    d. Mengurangi jumlah baris kode program
+    e. Menghindari penggunaan fungsi `input()`
+
+87. Apa fungsi dari metode `.startswith("I")` pada sebuah string di Python?
+    a. Memeriksa apakah string diakhiri dengan huruf "I"
+    b. Memeriksa apakah string diawali dengan karakter atau substring "I" (mengembalikan True/False)
+    c. Mengganti semua huruf "I" menjadi huruf kecil
+    d. Menghitung jumlah kemunculan huruf "I"
+    e. Mengubah posisi string ke awal baris
+
+88. Manakah pernyataan yang benar mengenai konsep argumen ber-*keyword* (*keyword arguments*) saat memanggil fungsi di Python?
+    a. Kita harus selalu menuliskan argumen secara berurutan sesuai posisi definisinya
+    b. Kita dapat memanggil argumen dengan menyebutkan secara langsung nama parameternya sehingga urutan posisi tidak menjadi masalah
+    c. Hanya boleh digunakan pada fungsi matematika bawaan sistem
+    d. Nilai argumen tidak boleh diubah di dalam fungsi
+    e. Bersifat wajib dan tidak boleh memiliki nilai default
+
+89. Bagaimana cara menghapus suatu elemen tertentu dari list berdasarkan **nilai isinya** (bukan nomor indeksnya)?
+    a. Menggunakan metode `.remove(nilai)`
+    b. Menggunakan metode `.pop()`
+    c. Menggunakan perintah `del list[index]`
+    d. Menggunakan metode `.clear()`
+    e. Menggunakan fungsi `min()`
+
+90. Apa kegunaan utama dari fungsi `enumerate()` ketika dikombinasikan dengan perulangan `for` pada struktur data berurutan?
+    a. Mengembalikan objek yang menghasilkan pasangan indeks dan nilai elemen secara bersamaan
+    b. Mengurutkan data dari angka terkecil ke terbesar
+    c. Mengubah list menjadi kamus data (dictionary)
+    d. Menghitung rata-rata nilai elemen angka
+    e. Memfilter data kosong dari list
+
+============================================================
+AKHIR DARI FILE SOAL UTS ALGORITMA DAN PEMROGRAMAN
+============================================================
